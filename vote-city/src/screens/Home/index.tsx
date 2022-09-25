@@ -49,15 +49,9 @@ export function Home() {
       Alert.alert('Nenhuma cidade foi votada');
       return;
     }
-    const occurrences = {}
 
-    const filteredFamily = allValues.filter(function (x) {
-      if (occurrences[x.value]) {
-        return false;
-      }
-      occurrences[x.value] = true;
-      return true;
-    })
+    Alert.alert(`A cidade vencedora foi: ${result.nameCity} com total de
+    ${result.value} voto(s)`);
 
     //Vou ficar devendo o empate
     //Verify has values duplicates for Alert show 'empate'
