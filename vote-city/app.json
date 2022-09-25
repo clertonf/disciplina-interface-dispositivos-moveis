@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "vote-city",
+    "slug": "vote-city",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
